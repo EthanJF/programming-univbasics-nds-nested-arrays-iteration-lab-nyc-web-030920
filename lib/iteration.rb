@@ -50,5 +50,7 @@ def total_even_pairs(src)
       result << src[i][0]
       result << src[i][1]
     end
+    i += 1
+  end
     result
 end

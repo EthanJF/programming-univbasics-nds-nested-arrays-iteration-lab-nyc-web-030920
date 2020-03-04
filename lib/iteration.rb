@@ -6,8 +6,9 @@ def join_ingredients(src)
   #
   # "I love (inner array element 0) and (inner array element 1) on my pizza""
   # As such, there should be a new String for each inner array, or pair
-  row_index = 0
   resulting_array = []
+  row_index = 0
+
   while row_index <= src.length do
     inner = src[row_index]
     resulting_array << "I love #{inner[0]} and #{inner[1]} on my pizza"

@@ -14,7 +14,7 @@ def join_ingredients(src)
     resulting_array << "I love #{inner[0]} and #{inner[1]} on my pizza"
     row_index += 1
   end
-  resulting_array
+  result
   #   result = []
 
   # i = 0
